@@ -48,8 +48,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/sewxiy"),
-                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/codeflixsupport')
+                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/R00TUP"),
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/XenonSupportChat')
                 ],[
                     InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/codeflix_bots")
                   ]]
@@ -1527,7 +1527,7 @@ async def support(bot, message):
 async def donation(bot, message):
     btn = [[
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_data"),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/+DnmZbLjS0iw0YWI1'),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/Invincible_Darkness'),
     ]]
     yt=await message.reply_photo(photo='https://graph.org/file/1919fe077848bd0783d4c.jpg', caption=script.DONATE_TXT, reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(300)
