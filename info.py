@@ -44,8 +44,10 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '') # request channel id ( make 
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tgxm1:tgm1@cluster0.3glcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://tgxm2:tgxm2@cluster0.gm90q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+#DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tgxm1:tgm1@cluster0.3glcb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+#DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://tgxm2:tgxm2@cluster0.gm90q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bot:bot@cluster0.8vepzds.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://bot:bot@cluster0.8vepzds.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'collection')
 
